@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+    color: #2d2e2f;
+    font-family: "UD Digi Kyokasho NK";
+}
+
+h1 {
+    font-size: 38px;
+    font-family: "Lucida Sans Unicode";
+    font-weight: lighter;
+}
+
+
+h2 {
+    font-size: 18px;
+    font-family: "UD Digi Kyokasho NK";
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+
+h5 {
+    font-weight: lighter;
+}
+
+.en {
+    font-family: "Garamond";
+}
+
+header {
+    width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+header h1,
+header h2 {
+    display: inline-block;
+}
+
+/* header h1{
+    margin-right: 253px;
+    } */
+
+.header-wrapper {
+    width: 1050px;
+    /* margin: 40px 200px 0 auto; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 24px;
+
+}
+
+.main-visual img {
+    width: 100%;
+}
+
+/* ナビゲーション */
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18x;
+    padding: 16px 16px;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0 35px;
+    text-decoration: none;
+}
+
+
+a,
+a:visited {
+    color: #2d2e2f;
+}
+
+
+.aboutus {
+    width: 1115px;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 256px;
+    line-height: 1.7;
+}
+
+.aboutus p {
+    margin-top: 48px;
+    letter-spacing: 1px;
+}
+
+.aboutus-wrapper {
+    width: 1115px;
+    margin: 0 auto 0 101px;
+    /* margin-bottom: 120px; */
+    display: flex;
+    align-items: center;
+    /* imgとpの間 */
+    gap: 50px;
+}
+
+
+.detailed {
+    width: 1000px;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 256px;
+}
+
+.detailed-wrapper-2 h3 {
+    font-weight: lighter;
+    margin-bottom: 64px;
+}
+
+.detailed-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 234px;
+}
+
+.detailed p {
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.menu {
+    padding-top: 85px;
+    padding-bottom: 95px;
+    text-align: center;
+    margin-top: 256px;
+    line-height: 1.7;
+}
+
+
+.menuname {
+    list-style: none;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.price {
+    list-style: none;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.menu h4 {
+    margin-bottom: 64px;
+}
+
+.menu-hand {
+    width: 1000px;
+    margin: 48px auto 0 auto;
+    margin-bottom: 192px;
+    display: flex;
+    justify-content: space-between;
+    /* この下は必要なのか */
+    flex-wrap: wrap;
+    gap: 50px 0;
+}
+
+.menu-foot {
+    width: 1000px;
+    margin: 48px auto 0 auto;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px 0;
+}
+
+.access {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 256px;
+    line-height: 1.7;
+
+}
+
+.access-wrapper {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+    margin-top: 64px;
+}
+
+
+.reservation {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 256px auto;
+    line-height: 1.7;
+}
+
+.reservation p {
+    margin-top: 64px;
+}
+
+.reservasion-wrapper {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    margin-top: 48px;
+}
+
+.reservasion-wrapper img {
+    margin: 0 64px;
+}
+
+
+.manubar ul {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18x;
+    padding: 16px 16px;
+    list-style: none;
+}
+
+.manubar ul li a {
+    padding: 0 35px;
+    text-decoration: none;
+}
+
+footer {
+    background-image: url(./images/futter.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 81px;
+    color: #fff;
+    margin-top: 24px;
+}
+
+footer p {
+    padding-top: 40px;
+}
+
+/* タブレット用スタイル */
+
+@media only screen and (max-width:500px) {
+    #container {
+        width: 100%;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+}
